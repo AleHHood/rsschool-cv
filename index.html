@@ -1,91 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="CV Junior Frontend Developer Aleh Hryhuts ">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
-    <title>Aleh Hryhuts CV</title>
-</head>
-<body>
-    <div class="container">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="CV Junior Frontend Developer Aleh Hryhuts ">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+        <title>Aleh Hryhuts CV</title>
+    </head>
+    <body>
+        <div class="container">
         <main>
             <header>
-                <h1>Aleh Hryhuts</h1>
-                <h3>Junior Frontend Developer</h3>
+            <h1>Aleh Hryhuts</h1>
+            <h3>Junior Frontend Developer</h3>
             </header>
-   
             <div class="sidebar">
-                <section class="contacts">
-                    <h2 class="sidebar__h2">Contacts:</h2>
-                    <ul class="ul-sidebar">
-                        <li>E-mail: <a href="mailto:oleg.mail2011@yandex.by">oleg.mail2011@yandex.by</a></li>
-                        <li>GitHub: <a href="https://github.com/AleHHood">AleHHood</a></li>
-                        <li>Discord: <a href="https://discordapp.com/users/947181960411873310">Aleh Hryhuts (@AleHHood)</a></li>
-                    </ul>
-                </section>
-
-                <section class="skills">
-                    <h2 class="sidebar__h2">Skills:</h2>
-                    <ul class="ul-sidebar">
-                        <li>HTML</li>
-                        <li>CSS (SCSS, BEM)</li>
-                        <li>JavaScript</li>
-                        <li>React</li>
-                        <li>Git, GitHub</li>
-                        <li>gulp</li>
-                        <li>Webpack</li>
-                    </ul>
-                </section>  
-
-                <section class="languages">
-                    <h2 class="sidebar__h2">Languages:</h2>
-                    <ul class="ul-sidebar">
-                        <li>English — A2</li>
-                        <li>Belarusian — native speaker</li>
-                        <li>Russian — native speaker</li>
-                    </ul>
-                </section>
+            <section class="contacts">
+                <h2 class="sidebar__h2">Contacts:</h2>
+                <ul class="ul-sidebar">
+                <li>
+                    E-mail:
+                    <a href="mailto:oleg.mail2011@yandex.by">oleg.mail2011@yandex.by</a>
+                </li>
+                <li>
+                    GitHub: <a href="https://github.com/AleHHood">AleHHood</a>
+                </li>
+                <li>
+                    Discord:
+                    <a href="https://discordapp.com/users/947181960411873310">Aleh Hryhuts(@AleHHood)</a>
+                </li>
+                </ul>
+            </section>
+            <section class="skills">
+                <h2 class="sidebar__h2">Skills:</h2>
+                <ul class="ul-sidebar">
+                <li>HTML</li>
+                <li>CSS (SCSS, BEM)</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Git, GitHub</li>
+                <li>gulp</li>
+                <li>Webpack</li>
+                </ul>
+            </section>
+            <section class="languages">
+                <h2 class="sidebar__h2">Languages:</h2>
+                <ul class="ul-sidebar">
+                <li>English — A2</li>
+                <li>Belarusian — native speaker</li>
+                <li>Russian — native speaker</li>
+                </ul>
+            </section>
             </div>
-
             <div class="container__right">
-                <section class="about">
-                    <h2 class="container__right-h2">About me</h2>
-                    <p class="about">My goal is to take the RSScool course to improve my knowledge of frontend development and learn something new.</p>
-                </section>
-
-                <section class="code-example">
-                    <h2 class="container__right-h2">Code example</h2>
-                    <code>
-                        function validParentheses(parens) {
-                            while(parens.length > 0){
-                                parens = parens.replace('()', '');
-                                if(parens == parens.replace('()', '') && parens.length > 0){
-                                    return false;
-                                }
-                            }
-                            return true;
-                        }
-                    </code>
-                </section>
-
-                <section class="education">
-                    <h2 class="container__right-h2">Education and Courses:</h2>
-                    <ul class="ul-container">
-                        <li>Yanka Kupala State University of Grodno (Power engineer)</li>
-                        <li><a href="https://www.udemy.com/course/webdeveloper/">Web Developer course on Udemy</a></li>
-                        <li><a href="https://www.udemy.com/course/javascript_full/">JavaScript + React course on Udemy (in progress)</a></li>
-                    </ul>
-                </section>
+            <section class="about">
+                <h2 class="container__right-h2">About me</h2>
+                <p class="about">My goal is to take the RSScool course to improve my knowledge of frontend development and learn something new.</p>
+            </section>
+            <section class="code-example">
+                <h2 class="container__right-h2">Code example</h2>
+                <code>
+                    function validParentheses(parens) { while(parens.length &gt; 0){<br>
+                        parens = parens.replace('()', ''); if(parens ==<br>
+                        parens.replace('()', '') &amp;&amp; parens.length &gt; 0){ return false; } }<br>
+                        return true; }<br>
+                </code>
+            </section>
+            <section class="education">
+                <h2 class="container__right-h2">Education and Courses:</h2>
+                <ul class="ul-container">
+                <li>Yanka Kupala State University of Grodno (Power engineer)</li>
+                <li>
+                    <a href="https://www.udemy.com/course/webdeveloper/">Web Developer course on Udemy</a>
+                </li>
+                <li>
+                    <a href="https://www.udemy.com/course/javascript_full/">JavaScript + React course on Udemy (in progress)</a>
+                </li>
+                </ul>
+            </section>
             </div>
         </main>
         <footer>
             <p>2022</p>
         </footer>
-    </div>
-</body>
+        </div>
+  </body>
 </html>
