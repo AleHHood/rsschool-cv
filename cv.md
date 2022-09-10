@@ -28,10 +28,10 @@ function validParentheses(parens) {
     return true;
   }
 ```
-## Education and Courses
-Yanka Kupala State University of Grodno (Power engineer)
-[Web Developer course on Udemy](https://www.udemy.com/course/webdeveloper/)
-[JavaScript + React course on Udemy (in progress)](https://www.udemy.com/course/javascript_full/)
+## Education and Courses:
+*  Yanka Kupala State University of Grodno (Power engineer)
+*  [Web Developer course on Udemy](https://www.udemy.com/course/webdeveloper/)
+*  [JavaScript + React course on Udemy (in progress)](https://www.udemy.com/course/javascript_full/)
 ## Languages
   * English — A2;
   * Belarusian — native speaker; 
